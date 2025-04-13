@@ -1,0 +1,17 @@
+
+#include<stdio.h>
+int main(){
+int x=5;
+int *p;
+p=&x;
+printf("Enter the value of x=%d\n",x);
+printf("Enter the address of x=%x\n",&x);
+printf("Enter the pointer of x=%x\n",p);
+printf(" pointer jareh address store korseh or value  x=%x\n",*p);
+printf("Enter pointer variable address of x=%x\n",&p);
+
+
+
+return 0;
+}
+**pointer mainly akta variable jeita arekta variable ar adress store rakeh
