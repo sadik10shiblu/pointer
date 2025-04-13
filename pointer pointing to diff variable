@@ -1,0 +1,16 @@
+1.int variable hole pointer o int hobe.The data type of the pointer and the data type of the variable it points to should be the same.
+
+
+#include<stdio.h>
+int main(){
+
+int x=10,y=20,z=30;
+int *p;
+p=&x;
+printf("x=%d\n",*p);
+p=&y;
+printf("y=%d\n",*p);
+p=&z;
+printf("z=%d\n",*p);
+return 0;
+}
