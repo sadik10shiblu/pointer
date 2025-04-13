@@ -1,0 +1,19 @@
+#include<stdio.h>
+
+int main()
+{
+    int a[5]={10,20,30,40,50};
+    int *ptr,i;
+    ptr=a;// index address mention korlam
+    for(i=0;i<5;i++)
+    {
+        printf("%d\n",*ptr);
+       ptr++;//using one pointer variable to walk through the whole array.
+       //1st array then 2nd array using ptr++.....
+    }
+
+
+
+
+return 0;
+}
